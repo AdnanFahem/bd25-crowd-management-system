@@ -1,6 +1,7 @@
 # Event Management Dashboard
 
 ## Project Overview
+This project was developed as part of a university group project in the second year.
 This project is a full-stack **Event Management Dashboard** developed for university coursework.  
 It allows users to log in with different roles and interact with the system based on their permissions.
 
