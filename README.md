@@ -104,16 +104,18 @@ Users can search real client event data using:
 ---
 
 ## Technologies Used
-- **Python**
-- **FastAPI**
-- **SQLite**
-- **Pandas**
-- **Scikit-learn**
-- **bcrypt**
-- **HTML**
-- **Bootstrap**
-- **JavaScript**
-- **Chart.js**
+
+- Python (FastAPI)
+- SQLite (Database)
+- Pandas (Data processing)
+- Scikit-learn (Machine Learning)
+- bcrypt (Authentication security)
+- HTML, Bootstrap (Frontend)
+- JavaScript (Client-side logic)
+- Chart.js (Data visualization)
+  The system integrates backend processing, data analysis, and frontend visualization to provide an efficient event management solution.
+
+  
 
 ---
 
@@ -131,3 +133,13 @@ Software/
 │
 └── static/
     └── dashboard.html
+## How to Run
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the server:
+   uvicorn main:app --reload
+
+3. Open in browser:
+   http://localhost:8000
